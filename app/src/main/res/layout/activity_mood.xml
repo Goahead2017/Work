@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl"
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/background2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ContentDescription"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/another"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/text1"
+        android:textSize="25sp"
+        android:textColor="#9966FF"
+        android:layout_centerHorizontal="true"
+         />
+
+    <TextView
+        android:id="@+id/another_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/another"
+        android:text="@string/text2"
+        android:textSize="25sp"
+        android:textColor="#9966FF"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/edit_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/another_other"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="25sp"
+        android:gravity="left"
+        android:hint="@string/text_view"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_view"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="#6699FF"
+        android:text="@string/sure"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/leaf_one"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/leaf_two"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/leaf_two"
+        android:src="@drawable/leaf_one"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/leaf_two"
+        android:src="@drawable/leaf_two"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>

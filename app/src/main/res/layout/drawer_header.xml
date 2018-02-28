@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_two"
+    >
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:id="@+id/header_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/header_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nick_name"
+        android:text="Andy Lau"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nick_name"
+        android:id="@+id/desc"
+        android:text="做一棵低头的麦穗，饱满而谦逊！"
+        android:textSize="18sp"
+        android:textColor="#000000"/>
+
+</RelativeLayout>

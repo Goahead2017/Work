@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="@string/day_moon"
+        android:layout_centerHorizontal="true"
+        android:textSize="50sp"
+        android:textColor="#99CCFF"/>
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:layout_below="@+id/text_three">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/text_three"
+    />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/menu_one"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/add_32"
+        app:backgroundTint="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="300dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/menu_two"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/delete_32"
+            app:backgroundTint="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="300dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+             />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/menu_three"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/moon_48"
+            app:backgroundTint="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="300dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+             />
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

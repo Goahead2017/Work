@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WintervacationHomework</string>
+    <string name="moon">月亮</string>
+    <string name="sun">中心</string>
+    <string name="star">星星</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="day_moon">心情便签</string>
+    <string name="text_view">开始吧</string>
+    <string name="sure">确定</string>
+    <string name="text1">。*快写下属于自己</string>
+    <string name="text2">的心灵鸡汤吧*。</string>
+    <string name="log_user">请输入用户名</string>
+    <string name="log_password">请输入密码</string>
+    <string name="register_password">请再次输入密码</string>
+    <string name="log">登录</string>
+    <string name="click">点击注册</string>
+    <string name="register">注册</string>
+</resources>
